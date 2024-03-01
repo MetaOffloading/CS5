@@ -65,7 +65,7 @@ public class TimeResponse {
 			
 			TimeDisplay.stimulusDisplay.setHTML("");
 			
-			TimeDisplay.offloadButton.setHTML("Remind me (" + TimeDisplay.offloadClicksRemaining + ")");
+			TimeDisplay.offloadButton.setHTML("Rapelle moi (" + TimeDisplay.offloadClicksRemaining + ")");
 			
 			new Timer() {
 				public void run() {
@@ -113,7 +113,7 @@ public class TimeResponse {
 					}
 				}.schedule(TimeBlock.RSI);
 			} else {
-				Window.alert("Press the spacebar to continue");
+				Window.alert("Appuyez sur la touche espace pour continuer");
 			}
 		} else {
 			if ((response == TimeBlock.matchKey)||(response == TimeBlock.nonMatchKey)) { //increment trial number if one of the 2back keys was pressed

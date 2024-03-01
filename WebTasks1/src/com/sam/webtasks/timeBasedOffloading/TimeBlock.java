@@ -92,7 +92,7 @@ public class TimeBlock {
 		}
 		
 		TimeDisplay.clockDisplay.setHTML("0:00");
-		TimeDisplay.stimulusDisplay.setHTML("Press spacebar to start");
+		TimeDisplay.stimulusDisplay.setHTML("Appuyez sur la touche espace pour commencer");
 		
 		TimeDisplay.focusPanel.setFocus(true);
 		TimeDisplay.offloadButton.setEnabled(false);

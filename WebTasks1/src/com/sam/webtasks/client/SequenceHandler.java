@@ -77,7 +77,7 @@ public class SequenceHandler {
 				PHP.logData("start", data, true);
 				break;
 			case 2:
-				ClickPage.Run(Instructions.Get(10), "Next");
+				ClickPage.Run(Instructions.Get(10), "Suivant");
 				break;
 			case 3:
 				TimeBlock.Init();
@@ -92,9 +92,9 @@ public class SequenceHandler {
 				if ((TimeBlock.nBackNonMatchCorr==0)|(TimeBlock.nBackMatchCorr==0)) {
 					SequenceHandler.SetPosition(SequenceHandler.GetPosition()-2);
 					
-					ClickPage.Run("Your accuracy was too low", "Try again");
+					ClickPage.Run("Vous n'avez pas été assez précis", "Réessayez");
 				} else {
-					ClickPage.Run(Instructions.Get(20), "Next");
+					ClickPage.Run(Instructions.Get(20), "Suivant");
 				}
 				break;
 			case 5:
@@ -115,12 +115,12 @@ public class SequenceHandler {
 					TimeBlock.nBackNonMatchCorr=1;
 					TimeBlock.nBackMatchCorr=1;
 					
-					ClickPage.Run("You didn't remember to press the spacebar.", "Try again");
+					ClickPage.Run("Vous avez oublié d'appuyer sur la touche espace.", "Réessayez");
 				} else {
 					if (Counterbalance.getFactorLevel("revealableClock")==ExtraNames.REVEALABLE) {
-						ClickPage.Run(Instructions.Get(21), "Next");
+						ClickPage.Run(Instructions.Get(21), "Suivant");
 					} else {
-						ClickPage.Run(Instructions.Get(22), "Next");
+						ClickPage.Run(Instructions.Get(22), "Suivant");
 					}
 				}
 				break;
@@ -139,7 +139,7 @@ public class SequenceHandler {
 				TimeBlock.Run();
 				break;
 			case 8:
-				ClickPage.Run(Instructions.Get(30), "Next");
+				ClickPage.Run(Instructions.Get(30), "Suivant");
 				break;
 			case 9:
 				TimeBlock.Init();
@@ -159,7 +159,7 @@ public class SequenceHandler {
 				PHP.logData("slider_10s", ""+Slider.getSliderValue(), true);
 				break;
 			case 12:
-				ClickPage.Run(Instructions.Get(50),  "Next");
+				ClickPage.Run(Instructions.Get(50),  "Suivant");
 				break;
 			case 13:
 				TimeBlock.Init();
@@ -180,7 +180,7 @@ public class SequenceHandler {
 				PHP.logData("slider_20s",  ""+Slider.getSliderValue(),  true);
 				break;
 			case 16:
-				ClickPage.Run(Instructions.Get(70),  "Next");
+				ClickPage.Run(Instructions.Get(70),  "Suivant");
 				break;
 			case 17:
 				TimeBlock.Init();
@@ -201,7 +201,7 @@ public class SequenceHandler {
 				PHP.logData("slider_30s",  ""+Slider.getSliderValue(),  true);
 				break;
 			case 20:
-				ClickPage.Run(Instructions.Get(90), "Next");
+				ClickPage.Run(Instructions.Get(90), "Suivant");
 				break;
 			case 21:
 				TimeBlock.Init();
@@ -215,9 +215,9 @@ public class SequenceHandler {
 			case 22:
 				if (TimeBlock.offloadButtonOperated==false) {
 					SequenceHandler.SetPosition(SequenceHandler.GetPosition()-2);
-					ClickPage.Run("You didn't set a reminder",  "Try again");
+					ClickPage.Run("Vous n'avez pas programmé de rappel",  "Réessayez");
 				} else {
-					ClickPage.Run(Instructions.Get(100), "Next");		
+					ClickPage.Run(Instructions.Get(100), "Suivant");		
 				}
 				break;
 			case 23:
@@ -237,7 +237,7 @@ public class SequenceHandler {
 			case 24:
 				ProgressBar.SetProgress(2,8);
 				
-				ClickPage.Run(Instructions.Get(110), "Next");
+				ClickPage.Run(Instructions.Get(110), "Suivant");
 				break;
 			case 25:
 				TimeBlock.Init();
@@ -252,7 +252,7 @@ public class SequenceHandler {
 			case 26:
 				ProgressBar.SetProgress(3,8);
 				
-				ClickPage.Run(Instructions.Get(110), "Next");
+				ClickPage.Run(Instructions.Get(110), "Suivant");
 				break;
 			case 27:
 				TimeBlock.Init();
@@ -267,7 +267,7 @@ public class SequenceHandler {
 			case 28:
 				ProgressBar.SetProgress(4,8);
 				
-				ClickPage.Run(Instructions.Get(110), "Next");
+				ClickPage.Run(Instructions.Get(110), "Suivant");
 				break;
 			case 29:
 				TimeBlock.Init();
@@ -282,7 +282,7 @@ public class SequenceHandler {
 			case 30:
 				ProgressBar.SetProgress(5,8);
 				
-				ClickPage.Run(Instructions.Get(110), "Next");
+				ClickPage.Run(Instructions.Get(110), "Suivant");
 				break;
 			case 31:
 				TimeBlock.Init();
@@ -297,7 +297,7 @@ public class SequenceHandler {
 			case 32:
 				ProgressBar.SetProgress(6,8);
 				
-				ClickPage.Run(Instructions.Get(110), "Next");
+				ClickPage.Run(Instructions.Get(110), "Suivant");
 				break;
 			case 33:
 				TimeBlock.Init();

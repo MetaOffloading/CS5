@@ -7,180 +7,182 @@ public class Instructions {
 
 	public static String Get(int index) {
 		String i="";
-		 
+
 		switch(index) {
 		case 10:
-			i="In this task you will see a sequence of letters, one by one.<br><br>If the letter "
-					+ "matches the one you saw two letters ago, please press the <b>X</b> key. "
-					+ "Otherwise, press the <b>Z</b> key.<br><br>For example, if you saw the sequence "
-					+ "O A S A P, you would press Z Z Z X Z.<br><br>Please respond as quickly "
-					+ "and as accurately as possible.";
+			i="Dans cette tâche vous verrez une séquence de lettres, les unes après les autres.<br><br> "
+					+ "Si la lettre correspond à celle que avez vue deux lettres précédentes, merci d'appuyer sur la touche <b>X</b> "
+					+ "Sinon, appuyez sur la touche  <b>Z</b>.<br><br> Par exemple, si vous voyez la séquence "
+					+ "O A S A P, vous devriez appuyer sur les touches Z Z Z X Z.<br><br> "
+					+ "Merci de répondre aussi rapidement et précisément que possible.";
 			break;
 		case 20:
-			i = "At the same time as doing this test, you will also do a 'timer task'. A digital clock "
-					+ "will be displayed above the letters. You will be asked to press "
-					+ "the <b>spacebar</b> at a particular time.<br><br>For example you might get "
-					+ "the instruction \"Hit the spacebar at 0:20\". When you see a message "
-					+ "like this, first you should immediately press the spacebar to continue "
-					+ "with the letter task. You should keep going with the letter task like before. Then, "
-					+ "when the clock gets to the specified time (such as 0:20) you should press the "
-					+ "spacebar again. Keep going with the letter task after this.<br><br>"
-					+ "The most important thing is to continue the letter task as quickly and as accurately "
-					+ "as possible. It is more important that you pay attention to the letters than the clock. "
-					+ "But you should also try to do the timer task at the same time, if you can.<br><br>"
-					+ "If you press the spacebar within 2 seconds of the instructed time (for example "
-					+ "0:18 to 0:22) this will be counted as correct.";
+			i = "En même temps que cette tâche, vous aurez également une tâche de minuterie."
+					+ "Une horloge digitale s'affichera au-dessus des lettres. On vous demandera "
+					+ "d'appuyer sur la touche <b>espace</b> à un moment particulier.<br><br> Par exemple, vous pourriez recevoir "
+					+ "l'instruction \"Appuyez sur la touche espace à 0:20\". Lorsque vous voyez un message comme celui-ci,  "
+					+ "vous devez d'abord appuyer sur la touche espace pour poursuivre la tâche. "
+					+ "Vous devez poursuivre la tâche des lettres comme auparavant. Ensuite, lorsque "
+					+ "l'horloge indique l'heure spécifique (telle que 0:20), vous devez appuyer une nouvelle fois "
+					+ "sur la touche espace. Après ceci, vous continuerez avec la tâche des lettres.<br><br>"
+					+ "Le plus important est de continuer avec la tâche des lettres aussi rapidement et précisément que possible. "
+					+ "Il est plus important que vous portiez votre attention aux lettres plutôt qu'à l'horloge. "
+					+ "Mais vous devez essayer de faire la tâche de la minuterie en même temps, si vous le pouvez.<br><br> "
+					+ "Si vous appuyez sur la touche espace dans les deux secondes avant et suivant l'heure "
+					+ "indiquée (par exemple 0:18 à 0:22), cela sera considéré comme correct. ";
 			break;	
 		case 21:
-			i = "Now you will practice the same task again, but this time the clock will not automatically stay "
-					+ "on the screen.<br><br>You can reveal the clock to check the time whenever you want by pressing "
-					+ "the <b>M</b> button. You can do this as many times as you like.<br><br>For the rest of the experiment, "
-					+ "you will need to press the <b>M</b> button to reveal the clock.<br><br>Each time you are asked to press "
-					+ "the spacebar, you can only do this <b>once</b>. For example, if you are told to press the spacebar at "
-					+ "0:20 and you already press it at 0:15, it will not count if you press it again. So you should only "
-					+ "press the spacebar when it is time to do so.<br><br>Please click below to practice.";
+			i = "Maintenant, vous allez à nouveau vous entrainer à la tâche, mais, cette fois-ci, "
+					+ "l'horloge ne restera pas automatiquement sur l'écran.<br><br> Vous pouvez faire apparaître l'horloge "
+					+ "pour vérifier l'heure à tout moment en appuyant su la touche <b>M</b>. Vous pouvez faire ceci "
+					+ "autant de fois que vous le souhaitez <br><br> .Pour la suite de l'expérience, vous devrez appuyer sur la touche <b>M</b>." 
+					+ "pour faire apparaître l'horloge. <br><br> À chaque fois qu'on vous demande d'appuyer sur la touche espace, "
+					+ "vous ne pouvez le faire qu' <b>une fois</b>. Par exemple, si on vous demande d'appuyer sur la touche espace "
+					+ "à 0:20 et que vous avez déjà appuyé à 0:15, cela ne sera pas compté si vous appuyez une nouvelle fois. "
+					+ "C'est pour cela que vous ne devriez appuyer sur la touche espace que lorsque c'est l'heure de le faire. <br><br> "
+					+ "Merci de cliquer ci-dessous afin de vous entrainer. ";
+
 			break;
 		case 22:
-			i = "Each time you are asked to press "
-					+ "the spacebar, you can only do this <b>once</b>. For example, if you are told to press the spacebar at "
-					+ "0:20 and you already press it at 0:15, it will not count if you press it again. So you should only "
-					+ "press the spacebar when it is time to do so.<br><br>Please click below to practice again.";
+			i = "À chaque fois que vous devez appuyer"
+					+ "sur la touche espace, vous ne pouvez le faire qu'<b>une fois</b>. Par exemple, si vous devez appuyer sur la touche espace à "
+					+ "0:20 et que vous avez déjà appuyé à 0:15, cela ne comptera pas si vous appuyez une nouvelle fois. Vous ne devez donc appuyer sur "
+					+ "la touche espace quand c'est le moment de le faire.<br><br>Merci de cliquer ci-dessous pour faire un autre entrainement.";
 			break;
 		case 30:
-			i = "In the main experiment you will score one point each time you press the correct button "
-					+ "in the <b>letter</b> task. If your final score is in the top half of participants, you will "
-					+ "receive an aditional bonus payment of £1.<br><br>"
-					+ "Now let's do some more practice of the task you have just done.<br><br>"
-					+ "When you get an instruction to press the spacebar, there will always be a <b>10 "
-					+ "second</b> wait until you should press it.<br><br>";
+			i = "Dans l'expérience principale, vous obtiendrez un point à chaque fois que vous appuyez sur la bonne touche "
+					+ "dans la tâches des <b>lettres</b>. Si votre score final se trouve dans la moitié supérieure "
+					+ "des participants, vous recevrez un paiement bonus de £1.<br><br> "
+					+ "Maintenant, faisons davantage d'entrainement sur le tâche que vous venez de faire <br><br> "
+					+ "Lorsque vous recevez l'instruction d'appuyer sur la touche espace, il y aura toujours "
+					+ "une attente de <b> 10 secondes </b> jusqu'à ce que vous deviez appuyer sur la touche.<br><br> ";
 			break;
 		case 40:
-			i = "Now that you have had some practice, we would like you to tell us how accurately you "
-					+ "think you can perform the timer task when it is exactly like the task you have just "
-					+ "practiced, with a <b>10 second wait</b> until you are supposed "
-					+ "to press the spacebar.<br><br>Please use the scale below to indicate what percentage "
-					+ "of times you will remember to press the spacebar correctly when there is a <b>10 second wait</b>."
-					+ "<br><br>100% would mean that you will always get every single one correct. 0% would mean "
-					+ "that you can never get any of them correct.";
+			i = "Maintenant que vous vous êtes entrainé, nous aimerions que vous nous indiquiez la précision avec laquelle "
+					+ "vous pensez pouvoir compléter la tâche de minuterie, lorsqu'il s'agit d'exactement la même tâche que celle que vous "
+					+ "venez de faire, avec une <b>attente de 10 secondes</b> avant d'appuyer sur la touche espace.<br><br> "
+					+ " Merci d'utiliser l'échelle ci-dessous afin d'indiquer le pourcentage de fois où vous vous "
+					+ "souviendrez d'appuyer correctement sur la touche espace lorsqu'il y a une <b>attente de 10 secondes</b>. "
+					+ "<br><br>100% signifierait que vous obtiendrez toujours la réponse correcte. "
+					+ "0% signifierait que vous n'obtiendrez aucune réponse correcte. ";
+
 			break;
 		case 50:
-			i = "Now we'll do some more practice of the task, but this time there will always be a "
-					+ "<b>20 second wait</b> in the timer task.";
+			i = "Maintenant, nous allons continuer à nous entrainer à la tâche, mais cette fois-ci il y aura "
+					+ "toujours une <b>attente de 20 secondes</b> dans la tâche de minuterie. ";
 			break;
 		case 60:
-			i = "Now that you have had some practice, we would like you to tell us how accurately you "
-					+ "think you can perform the timer task when it is exactly like the task you have just "
-					+ "practiced, with a <b>20 second wait</b> until you are supposed "
-					+ "to press the spacebar.<br><br>Please use the scale below to indicate what percentage "
-					+ "of times you will remember to press the spacebar correctly when there is a <b>20 second wait</b>."
-					+ "<br><br>100% would mean that you will always get every single one correct. 0% would mean "
-					+ "that you can never get any of them correct.";
+			i = "Maintenant que vous avez un peu de pratique, nous aimerions que vous nous indiquiez la précision avec laquelle "
+					+ "vous pensez pouvoir compléter la tâche de minuterie, lorsqu'il s'agit d'exactement la même tâche que celle "
+					+ "que vous venez de faire, avec une <b>attente de 20 secondes</b> avant d'appuyer sur la touche espace.<br><br> "
+					+ "Merci d'utiliser l'échelle ci-dessous afin d'indiquer le pourcentage de fois où vous vous "
+					+ "souviendrez d'appuyer correctement sur la touche espace lorsqu'il y a une <b>attente de 20 secondes</b>. "
+					+ "<br><br>100% signifierait que vous obtiendrez toujours la réponse correcte. "
+					+ "0% signifierait que vous n'obtiendrez aucune réponse correcte. ";
 			break;
 		case 70:
-			i = "Now we'll do some more practice of the task, but this time there will always be a "
-					+ "<b>30 second wait</b> in the timer task.";
+			i = "Maintenant, nous allons continuer à nous entrainer à la tâche, mais cette fois-ci il y aura "
+					+ "toujours une <b>attente de 30 secondes</b> dans la tâche de minuterie. ";
 			break;
 		case 80:
-			i = "Now that you have had some practice, we would like you to tell us how accurately you "
-					+ "think you can perform the timer task when it is exactly like the task you have just "
-					+ "practiced, with a <b>30 second wait</b> until you are supposed "
-					+ "to press the spacebar.<br><br>Please use the scale below to indicate what percentage "
-					+ "of times you will remember to press the spacebar correctly when there is a <b>30 second wait</b>."
-					+ "<br><br>100% would mean that you will always get every single one correct. 0% would mean "
-					+ "that you can never get any of them correct.";
+			i = "Maintenant que vous vous êtes entrainé, nous aimerions que vous nous indiquiez la précision avec laquelle "
+					+ "vous pensez pouvoir compléter la tâche de minuterie, lorsqu'il s'agit d'exactement la même tâche que celle que vous "
+					+ "venez de faire, avec une <b>attente de 30 secondes</b> avant d'appuyer sur la touche espace.<br><br> "
+					+ " Merci d'utiliser l'échelle ci-dessous afin d'indiquer le pourcentage de fois où vous vous "
+					+ "souviendrez d'appuyer correctement sur la touche espace lorsqu'il y a une <b>attente de 10 secondes</b>. "
+					+ "<br><br>100% signifierait que vous obtenez toujours la réponse correcte. "
+					+ "0% signifierait que vous n'obtenez aucune réponse correcte. ";
 			break;
 		case 90:
-			i = "There is one last thing to explain about the task. Sometimes, there will be a button on "
-					+ "the screen saying \"Remind Me\". Once you have been told to press the spacebar at "
-					+ "a particular time, you can use this button to set a reminder. You need to press this button "
-					+ "<b>five times</b> to set a reminder. This means that when "
-					+ "it's nearly time to press the spacebar, the clock will start flashing to remind you.<br><br>"
-					+ "Please try using this button now.";
+			i = "Une dernière chose concernant la tâche. Parfois, il y aura un bouton sur l'écran indiquant "
+					+ " \"Rappelle-moi\". Une fois qu'on vous a indiqué d'appuyer sur la touche espace "
+					+ "à un moment particulier, vous pouvez utiliser ce bouton en guise de rappel. Vous devez appuyer "
+					+ "sur ce bouton <b>5 fois</b> pour programmer un rappel. Cela signifie que lorsque c'est presque "
+					+ "le moment d'appuyer sur la touche espace, l'horloge va commencer à clignoter afin de vous le rappeler.<br><br> "
+					+ "Merci d'essayer d'utiliser ce bouton maintenant. ";
 			break;
 		case 100:
-			i = "When the \"Remind Me\" button is on the screen, it is completely up to you whether to use it or not. "
-					+ "You can set reminders if you want to, or you can just remember to press the spacebar "
-					+ "with your own memory, without setting a reminder. It's your choice, so you should just do whatever you prefer.<br><br>"
-					+ "That's the end of the practice. The main experiment will start now.";
+			i = "Lorsque le bouton \"Rappelle-moi\" est sur l'écran, vous êtes entièrement libre de l'utiliser ou non. Vous pouvez programmer "
+					+ "des rappels si vous le souhaitez, ou vous pouvez vous souvenir d'appuyer sur la touche espace avec votre propre "
+					+ "mémoire, sans installer de rappel. C'est votre choix, vous devriez donc faire ce que vous préférez.<br><br> "
+					+ "Il s'agit de la fin de l'entrainement. L'expérience principale va maintenant débuter. ";
 			break;
 		case 110:
-			i = "Time for a break. Press below to continue with the experiment.";
+			i = "Il est temps de faire une pause. Appuyez sur le bouton ci-dessous pour continuer l'expérience. ";
 			break;
 		case 120:
-			i = "You have now completed the task. Now that you have finished, please tell us how accurately you"
-					+ "think you can perform the timer task when you just use your own memory (no reminders) "
-					+ ", with a <b>10 second wait</b> until you are supposed "
-					+ "to press the spacebar.<br><br>Please use the scale below to indicate what percentage "
-					+ "of times you can remember to press the spacebar correctly when there is a <b>10 second wait</b> and no reminder."
-					+ "<br><br>100% would mean that you will always get every single one correct. 0% would mean "
-					+ "that you can never get any of them correct.";
+			i = "Vous avez maintenant terminé la tâche. Maintenant que vous avez fini, merci de nous indiquer la précision avec laquelle vous "
+					+ "pensez pouvoir compléter la tâche de minuterie, lorsque vous utilisez juste votre propre mémoire (sans rappels), "
+					+ "avec une <b>attente de 10 secondes</b> avant d'appuyer sur la touche espace. <br><br> "
+					+ "Merci d'utiliser l'échelle ci-dessous afin d'indiquer le pourcentage de fois où vous vous "
+					+ "souviendrez d'appuyer correctement sur la touche espace lorsqu'il y a une <b>attente de 10 secondes</b>. "
+					+ "<br><br>100% signifierait que vous obtenez toujours la réponse correcte. "
+					+ "0% signifierait que vous n'obtenez aucune réponse correcte. ";
 			break;
 		case 130:
-			i = "Now, please tell us how accurately you "
-					+ "think you can perform the timer task when you just use your own memory (no reminders)"
-					+ ", with a <b>20 second wait</b> until you are supposed "
-					+ "to press the spacebar.<br><br>Please use the scale below to indicate what percentage "
-					+ "of times you can remember to press the spacebar correctly when there is a <b>20 second wait</b> and no reminder."
-					+ "<br><br>100% would mean that you will always get every single one correct. 0% would mean "
-					+ "that you can never get any of them correct.";
+			i = "Maintenant, merci de nous indiquer la précision avec laquelle vous "
+					+ "pensez pouvoir compléter la tâche de minuterie, lorsque vous utilisez juste votre propre mémoire (sans rappels),"
+					+ "avec une <b>attente de 20 secondes</b> avant d'appuyer sur la touche espace.<br><br> "
+					+ "Merci d'utiliser l'échelle ci-dessous afin d'indiquer le pourcentage de fois où vous vous "
+					+ "souviendrez d'appuyer correctement sur la touche espace lorsqu'il y a une <b>attente de 20 secondes</b>."
+					+ "<br><br>100% signifierait que vous obtenez toujours la réponse correcte. "
+					+ "0% signifierait que vous n'obtenez aucune réponse correcte. ";
 			break;
 		case 140:
-			i = "Now, please tell us how accurately you "
-					+ "think you can perform the timer task when you just use your own memory (no reminders)"
-					+ ", with a <b>30 second wait</b> until you are supposed "
-					+ "to press the spacebar.<br><br>Please use the scale below to indicate what percentage "
-					+ "of times you can remember to press the spacebar correctly when there is a <b>30 second wait</b> and no reminder."
-					+ "<br><br>100% would mean that you will always get every single one correct. 0% would mean "
-					+ "that you can never get any of them correct.";
+			i = "Maintenant, merci de nous indiquer la précision avec laquelle vous "
+					+ "pensez pouvoir compléter la tâche de minuterie, lorsque vous utilisez juste votre propre mémoire (sans rappels), "
+					+ "avec une <b>attente de 30 secondes</b> avant d'appuyer sur la touche espace.<br><br> "
+					+ "Merci d'utiliser l'échelle ci-dessous afin d'indiquer le pourcentage de fois où vous vous "
+					+ "souviendrez d'appuyer correctement sur la touche espace lorsqu'il y a une <b>attente de 30 secondes</b>. "
+					+ "<br><br>100% signifierait que vous obtenez toujours la réponse correcte. "
+					+ "0% signifierait que vous n'obtenez aucune réponse correcte. ";
 			break;
 		case 150:
-			i = "You have now completed the experiment. Thank you for taking part.<br><br>"
-					+ "Please click on the link below to receive your payment:"
+			i = "Vous avez maintenant terminé l'expérience. Merci pour votre participation.<br><br> "
+					+ "Merci de cliquer sur le lien ci-dessous afin de recevoir votre paiement : "
 					+ "<b><a href=\"https://app.prolific.co/submissions/complete?cc=7EB98BB9\">"
-					+ "CLICK HERE</a></b>";
+					+ "CLIQUER ICI</a></b> ";
 			break;
 		}
 
 		return(i);	
 	}
-	
-	public static String InfoText() {
-		return ("We would like to invite you to participate in this research project. "
-                + "You should only participate if you want to; choosing not to take part "
-                + "will not disadvantage you in any way. Before you decide whether you "
-                + "want to take part, please read the following information carefully and "
-                + "discuss it with others if you wish. Ask us if there is anything that "
-                + "is not clear or you would like more information.<br><br>"
-                + "We are recruiting volunteers to "
-                + "take part in an experiment aiming to improve our understanding of human "
-                + "attention and memory. You will see various stimuli on the screen like letters of the alphabet "
-                + "and you will be asked to respond to them by pressing keys. Sometimes you will be asked how "
-                + "confident you are in your ability to perform the task. "
-                + "The experiment "
-                + "will last approximately 1 hour and you will receive a payment of £7.50 via the "
-                + "Prolific Academic payment system. There are no anticipated risks or "
-                + "benefits associated with participation in this study.<br><br>"
-                + "It is up to you to decide whether or not to take part. If you choose "
-                + "not to participate, you won't incur any penalties or lose any "
-                + "benefits to which you might have been entitled. However, if you do "
-                + "decide to take part, you can print out this information sheet and "
-                + "you will be asked to fill out a consent form on the next page. "
-                + "Even after agreeing to take "
-                + "part, you can still withdraw at any time and without giving a reason. If you withdraw before the "
-                + "end of the experiment, we will not retain your data and it will not be analysed."
-                + "<br><br>All data will be collected and stored in accordance with the General Data Protection "
-                + "Regulations 2018. Personal information is stored separately from test results, and researchers "
-                + "on this project have no access to this data. Your personal information such as name and email "
-                + "address is held by Prolific Academic but the researchers on this project have no acccess "
-                + "to this. Data from this experiment may be made available to the research community, for example by "
-                + "posting them on websites such as the Open Science Framework (<a href=\"http://osf.io\">http://osf.io</a>). "
-                + "It will not be possible to identify you from these data.<br><br>"
-                + "We aim to publish the results of this project in scientific journals and book chapters. Copies of the "
-                + "results can either be obtained directly from the scientific journals' websites or from us.<br><br>"
-                + "Should you wish to raise a complaint, please contact the Principal Investigator of this project, "
-                + "Dr Sam Gilbert (<a href=\"mailto:sam.gilbert@ucl.ac.uk\">sam.gilbert@ucl.ac.uk</a>). However, "
-                + "if you feel your complaint has not been handled to your satisfaction, please be aware that you can "
-                + "also contact the Chair of the UCL Research Ethics Committee (<a href=\"mailto:ethics@ucl.ac.uk\">ethics@ucl.ac.uk</a>).");
-    }
 
+	public static String InfoText() {
+		return ("Nous aimerions vous inviter à participer à un projet de recherche. "
+				+ "Vous ne devez participer que si vous le souhaitez ; choisir de ne pas participer "
+				+ "ne vous désavantagera d'aucune façon. Avant de décider si vous souhaitez participer, "
+				+ "merci de lire attentivement les informations suivantes et d'en discuter avec des autres "
+				+ "personnes si vous le souhaitez. N'hésitez pas à nous poser des questions si quelque chose n'est pas clair "
+				+ "ou si vous souhaitez davantage d'informations.<br><br> "
+				+ "Nous recrutons des volontaires afin de participer à une expérience "
+				+ "ayant pour but d'améliorer notre compréhension de l'attention et de la mémoire humaine. "
+				+ "Vous verrez une variété de stimuli sur votre écran, comme des lettres de l'alphabet "
+				+ "et on vous demandera de répondre en appuyant sur des touches de votre clavier. Parfois, on vous demandera "
+				+ "à quel point vous êtes confiant dans votre capacité à compléter la tâche. "
+				+ "L'expérience durera environ 1 heure et vous recevrez un paiement de £7.50 par le biais "
+				+ "du système de paiement Prolific Academic. IL n'y a pas de risques anticipés ou de bénéfices "
+				+ "liés à la participation à cette étude. <br><br> "
+				+ "C'est à vous de décider si vous souhaitez participer. Si vous choisissez "
+				+ "de ne pas participer, vous ne subirez aucune pénalité ou ne perdrez aucune "
+				+ "prestation à laquelle vous auriez pu prétendre. Cependant, si vous décidez "
+				+ "de participer, vous pouvez imprimer cette page d'information et "
+				+ "on vous demandera de compléter un formulaire de consentement sur la page suivante. "
+				+ "Même après avoir accepté de participer, "
+				+ "vous pouvez toujours vous retirer à tout moment et sans donner de raison. Si vous vous retirez "
+				+ "avant la fin de l'expérience, nous ne conserverons pas vos données et elles ne seront pas analysées. "
+				+ "<br><br> Toutes les données seront récoltées et stockées conformément au règlement général sur la protection des données de 2018. "
+				+ "Les informations personnelles sont stockées séparément des résultats des tests, "
+				+ "et les chercheurs sur ce projet n'ont pas accès à ces données. Vos informations personnelles telles que le nom et l'adresse mail "
+				+ "sont détenues par Prolific Academic mais les chercheurs sur ce projet n'y ont pas accès. "
+				+ "Les données de cette expérience peuvent être mises à la disposition de la communauté des chercheurs,"
+				+ "par exemple en les publiant sur un site internet tel que l'Open Science Framework(<a href=\"http://osf.io\">http://osf.io</a>). "
+				+ "Il ne sera pas possible de vous identifier à partir de ces données.<br><br> "
+				+ "Nous souhaitons publier les résultats de ce projet dans des revues scientifiques et des chapitres de livres. "
+				+ "Des copies des résultats peuvent être obtenues directement sur les sites web des revues scientifiques ou en nous contactant.<br><br> "
+				+ "Si vous souhaitez déposer une plainte, veuillez contacter le chercheur principal de ce projet, "
+				+ "le Professeur Sam Gilbert (<a href=\"mailto:sam.gilbert@ucl.ac.uk\">sam.gilbert@ucl.ac.uk</a>). "
+				+ "Cependant, si vous estimez que votre plainte n'a pas été traitée de façon satisfaisante, sachez que vous pouvez également contacter "
+				+ "le président du comité d'éthique de la recherche l'UCL. (<a href=\"mailto:ethics@ucl.ac.uk\">ethics@ucl.ac.uk</a>).");
+	}
 }

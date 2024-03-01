@@ -111,7 +111,7 @@ public class TimeDisplay {
 		//set up the offload button
 		offloadClicksRemaining = TimeBlock.offloadClicks;
 		
-		offloadButton.setHTML("Remind me (" + offloadClicksRemaining + ")");
+		offloadButton.setHTML("Rapelle moi (" + offloadClicksRemaining + ")");
 		
 		offloadButton.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
@@ -127,9 +127,9 @@ public class TimeDisplay {
 					focusPanel.setFocus(true);
 					offloadClicksRemaining = TimeBlock.offloadClicks;
 					
-					offloadButton.setHTML("Reminder set");
+					offloadButton.setHTML("Le rappel a été défini");
 				} else {
-					offloadButton.setHTML("Remind me (" + offloadClicksRemaining + ")");
+					offloadButton.setHTML("Rapelle moi (" + offloadClicksRemaining + ")");
 				}
 			}
 		});
@@ -175,7 +175,7 @@ public class TimeDisplay {
 				
 				awaitingPMresponse=true;
 				
-				instructionString = "Hit the spacebar at " + timeString(TimeBlock.nextTarget);
+				instructionString = "Appuyez sur la touche espace à " + timeString(TimeBlock.nextTarget);
 
 				timeForInstruction=true;
 				
@@ -190,7 +190,7 @@ public class TimeDisplay {
 	
 	public static final Timer spacebarToContinue = new Timer() {
 		public void run() {
-			Window.alert("Press the spacebar to resume the task.");
+			Window.alert("Appuyez sur la touche espace pour continuer.");
 		}
 	};
 	
