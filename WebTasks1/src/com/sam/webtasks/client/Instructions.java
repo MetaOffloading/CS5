@@ -12,8 +12,8 @@ public class Instructions {
 		case 10:
 			i="Dans cette tâche vous verrez une séquence de lettres, les unes après les autres.<br><br> "
 					+ "Si la lettre correspond à celle que avez vue deux lettres précédentes, merci d'appuyer sur la touche <b>X</b> "
-					+ "Sinon, appuyez sur la touche  <b>Z</b>.<br><br> Par exemple, si vous voyez la séquence "
-					+ "O A S A P, vous devriez appuyer sur les touches Z Z Z X Z.<br><br> "
+					+ "Sinon, appuyez sur la touche  <b>Y</b>.<br><br> Par exemple, si vous voyez la séquence "
+					+ "O A S A P, vous devriez appuyer sur les touches Y Y Y X Y.<br><br> "
 					+ "Merci de répondre aussi rapidement et précisément que possible.";
 			break;
 		case 20:
@@ -51,9 +51,8 @@ public class Instructions {
 			break;
 		case 30:
 			i = "Dans l'expérience principale, vous obtiendrez un point à chaque fois que vous appuyez sur la bonne touche "
-					+ "dans la tâches des <b>lettres</b>. Si votre score final se trouve dans la moitié supérieure "
-					+ "des participants, vous recevrez un paiement bonus de £1.<br><br> "
-					+ "Maintenant, faisons davantage d'entrainement sur le tâche que vous venez de faire <br><br> "
+					+ "dans la tâche des <b>lettres</b>.<br><br> "
+					+ "Maintenant, faisons davantage d'entrainement sur la tâche que vous venez de faire <br><br> "
 					+ "Lorsque vous recevez l'instruction d'appuyer sur la touche espace, il y aura toujours "
 					+ "une attente de <b> 10 secondes </b> jusqu'à ce que vous deviez appuyer sur la touche.<br><br> ";
 			break;

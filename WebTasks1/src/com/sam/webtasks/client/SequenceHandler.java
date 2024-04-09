@@ -222,7 +222,7 @@ public class SequenceHandler {
 				break;
 			case 23:
 				ProgressBar.Initialise();
-				ProgressBar.SetProgress(1,8);
+				ProgressBar.SetProgress(1,6);
 				ProgressBar.Show();
 
 				TimeBlock.Init();
@@ -235,7 +235,7 @@ public class SequenceHandler {
 				TimeBlock.Run();
 				break;
 			case 24:
-				ProgressBar.SetProgress(2,8);
+				ProgressBar.SetProgress(2,6);
 				
 				ClickPage.Run(Instructions.Get(110), "Suivant");
 				break;
@@ -250,7 +250,7 @@ public class SequenceHandler {
 				TimeBlock.Run();
 				break;
 			case 26:
-				ProgressBar.SetProgress(3,8);
+				ProgressBar.SetProgress(3,6);
 				
 				ClickPage.Run(Instructions.Get(110), "Suivant");
 				break;
@@ -265,7 +265,7 @@ public class SequenceHandler {
 				TimeBlock.Run();
 				break;
 			case 28:
-				ProgressBar.SetProgress(4,8);
+				ProgressBar.SetProgress(4,6);
 				
 				ClickPage.Run(Instructions.Get(110), "Suivant");
 				break;
@@ -280,57 +280,25 @@ public class SequenceHandler {
 				TimeBlock.Run();
 				break;
 			case 30:
-				ProgressBar.SetProgress(5,8);
-				
-				ClickPage.Run(Instructions.Get(110), "Suivant");
-				break;
-			case 31:
-				TimeBlock.Init();
-				TimeBlock.blockNumber=5;
-				
-				if ((Counterbalance.getFactorLevel("startingCondition")+TimeBlock.blockNumber) % 2 == 0) {
-					TimeBlock.offloadButtonVisible=false;
-				}
-				
-				TimeBlock.Run();
-				break;
-			case 32:
-				ProgressBar.SetProgress(6,8);
-				
-				ClickPage.Run(Instructions.Get(110), "Suivant");
-				break;
-			case 33:
-				TimeBlock.Init();
-				TimeBlock.blockNumber=6;
-				
-				if ((Counterbalance.getFactorLevel("startingCondition")+TimeBlock.blockNumber) % 2 == 0) {
-					TimeBlock.offloadButtonVisible=false;
-				}
-				
-				ProgressBar.SetProgress(TimeBlock.blockNumber,7);
-				
-				TimeBlock.Run();
-				break;
-			case 34:
-				ProgressBar.SetProgress(7, 8);
+				ProgressBar.SetProgress(5, 6);
 				Slider.Run(Instructions.Get(120), "0%", "100%");
 				break;
-			case 35:
+			case 31:
 				PHP.logData("slider_10s_end", ""+Slider.getSliderValue(), true);
 				break;
-			case 36:
+			case 32:
 				Slider.Run(Instructions.Get(130), "0%", "100%");
 				break;
-			case 37:
+			case 33:
 				PHP.logData("slider_20s_end", ""+Slider.getSliderValue(), true);
 				break;
-			case 38:
+			case 34:
 				Slider.Run(Instructions.Get(140), "0%", "100%");
 				break;
-			case 39:
+			case 35:
 				PHP.logData("slider_30s_end", ""+Slider.getSliderValue(), true);
 				break;
-			case 40:
+			case 36:
 				String data2 = TimeStamp.Now() + ",";
 				data2 = data2 + SessionInfo.prolificExperimentCode + ",";
 				data2 = data2 + Counterbalance.getFactorLevel("startingCondition") + ",";
@@ -341,8 +309,8 @@ public class SequenceHandler {
 				PHP.UpdateStatus("finished");
 				PHP.logData("finish", data2, true);
 				break;
-			case 41:
-				ProgressBar.SetProgress(8, 8);
+			case 37:
+				ProgressBar.SetProgress(6, 6);
 				ClickPage.Run(Instructions.Get(150), "nobutton");
 				break;
 			}

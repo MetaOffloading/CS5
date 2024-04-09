@@ -33,7 +33,7 @@ public class TimeBlock {
 	public static int blockNumber;
 	public static int trialNumber;
 	public static int spaceBarKey = KeyCodes.KEY_SPACE;
-	public static int nonMatchKey = KeyCodes.KEY_Z;
+	public static int nonMatchKey = KeyCodes.KEY_Y;
 	public static int matchKey = KeyCodes.KEY_X;
 	public static int revealClockKey = KeyCodes.KEY_M;
 	public static int nBackMatchCorr ; //number of correct 'match' responses
@@ -69,7 +69,7 @@ public class TimeBlock {
 		clockStartTime=0;
 		targetInstructionInterval=10;
 		nextInstruction=targetInstructionInterval;		
-		blockDuration=365;
+		blockDuration=275; //365 if it's 4 repetitions
 		tickTime=1000;
 		RSI=300;
 		nBackTargetProb=0.2;
@@ -104,7 +104,7 @@ public class TimeBlock {
 	
 	public static void Run() {
 		if (defaultPMintervals) {
-			for (int i = 0; i < 4; i++) {
+			for (int i = 0; i < 3; i++) {
 				PMinterval_list.add(10);
 				PMinterval_list.add(20);
 				PMinterval_list.add(30);
